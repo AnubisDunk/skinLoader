@@ -17,7 +17,7 @@ var cors = require('cors');
 app.use(cors())
 
 app.get('/', (req, res) => {
-    res.send('Hello World!')
+    res.send('🍞!')
 })
 app.get('/skins', (req, res) => {
     res.status(200).send(skins);
